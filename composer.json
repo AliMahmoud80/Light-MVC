@@ -1,0 +1,22 @@
+{
+    "name": "ali/light",
+    "description": "Lightweight PHP MVC",
+    "type": "framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Mahmoud",
+            "email": "ali.mahmoud7080@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filp/whoops": "^2.2@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Light\\": "vendor/light"
+        }
+    }
+}
